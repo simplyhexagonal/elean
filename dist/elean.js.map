@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["// @ts-ignore\nexport { version } from '../package.json';\n\nexport default (envVar: any) => {\n  const strVar = String(envVar).toLowerCase();\n\n  if (\n    strVar === ''\n    || strVar === 'false'\n    || strVar === '0'\n    || strVar === 'null'\n    || strVar === 'undefined'\n  ) {\n    return false;\n  }\n\n  return true;\n}\n"],
+  "mappings": ";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;;;;;;AAGA,MAAO,cAAQ,CAAC,WAAgB;AAC9B,UAAM,SAAS,OAAO,QAAQ;AAE9B,QACE,WAAW,MACR,WAAW,WACX,WAAW,OACX,WAAW,UACX,WAAW,aACd;AACA,aAAO;AAAA;AAGT,WAAO;AAAA;",
+  "names": []
+}
