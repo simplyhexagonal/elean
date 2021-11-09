@@ -15,7 +15,7 @@ var elean = (() => {
   });
 
   // package.json
-  var version = "0.0.1";
+  var version = "1.0.0";
 
   // src/index.ts
   var src_default = (envVar) => {
